@@ -116,7 +116,7 @@ with st.sidebar:
     st.header("Settings")
     model_name = st.selectbox(
         "Groq chat model",
-        options=["llama-3.3-70b-versatile", "llama-3.1-8b-instant"],
+        options=["openai/gpt-oss-120b", "llama-3.1-8b-instant"],
         index=0,
         help="If the first model is unavailable in your Groq account, try the second."
     )
